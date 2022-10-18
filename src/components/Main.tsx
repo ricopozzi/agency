@@ -11,7 +11,7 @@ export const Main = () => {
             <h1 
             className="font-black leading-10 lg:leading-[3.5rem] text-3xl lg:text-5xl lg:w-1/2 text-white"
             >Desenvolvemos os melhores softwares</h1>
-            <p className="lg:w-1/2 mt-10 text-gray-100" >Especialistas em produtos digitais do Brasil</p>
+            <p className="lg:w-1/2 mt-10 text-gray-100" >Especialistas em produtos digitais do Brasil, nós iremos desenvolver apps melhores e mais rápido.</p>
 
             <button className="w-48 h-14 mt-10 bg-white/80 hover:bg-white duration-150 rounded-xl font-bold tracking-wide" >Contate-nos</button>
 
