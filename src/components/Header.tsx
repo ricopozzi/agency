@@ -1,12 +1,18 @@
+import Image from "next/future/image"
 import Link from "next/link"
-
+import logo from "../../public/logo.svg"
 
 
 export const Header = () => {
 
     return (
         <header className="w-full h-20 pb-3 flex items-end justify-between" >
-              <p className="text-3xl font-bold tracking-wider" >agency</p>
+              <div className="flex items-center gap-x-1" >
+                
+              <Image src={logo} width={30} alt="logo image" />
+              <p className="text-3xl font-bold tracking-wider" > 
+               gency</p>
+              </div>
 
               <div className="hidden lg:flex gap-x-10 font-semibold text-gray-800" >
                 <Link href={'/#'} >

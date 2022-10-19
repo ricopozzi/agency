@@ -3,6 +3,7 @@ import { Footer } from '../components/footer'
 import { Header } from '../components/Header'
 import { InfoSection } from '../components/Infos'
 import { Main } from '../components/Main'
+import { Projects } from '../components/Projects'
 import { WhatWeDo } from '../components/WhatWeDo/index'
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
         <Main />
         <WhatWeDo /> 
         <InfoSection />
+        <Projects />
       </div>
       <Footer />
     </>

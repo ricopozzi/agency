@@ -7,6 +7,8 @@ import react from "../../../public/react.svg"
 import node from "../../../public/node.svg"
 import mongo from "../../../public/mongo.svg"
 import postgres from "../../../public/postgres.svg"
+import Image from "next/future/image"
+import logo from "../../../public/logo.svg"
 
 
 export const WhatWeDo = () => {
@@ -19,10 +21,10 @@ export const WhatWeDo = () => {
 
             <div className="min-h-[40vh] w-full flex items-center gap-x-6 mt-8" >
                 <MainSection />
-                <BiCodeAlt className="ml-auto mr-16 hidden lg:flex" size={172} color="#dedede" />
+                <Image src={logo} alt="logo image" className="ml-auto mr-20 hidden lg:block" />
             </div>
 
-            <div className="lg:w-1/2 mt-3 gap-x-4 flex flex-wrap justify-center lg:justify-start" >
+            <div className="lg:w-1/3 mt-3 gap-x-4 flex flex-wrap justify-center lg:justify-start" >
                 <Tec img={ts} text="Typescript" />
                 <Tec img={ruby} text="Ruby" />
                 <Tec img={react} text="React" />

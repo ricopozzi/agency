@@ -25,7 +25,7 @@ export const Footer = () => {
 
     return(
         <footer className="w-full min-h-80 bg-black px-3 lg:pt-14 py-40 flex flex-col lg:flex-row relative"  >
-            <p className="text-3xl text-white text-center mb-8 absolute left-10" >Agency</p>
+            <p className="text-3xl text-white text-center mb-8 absolute left-10 top-4 lg:top-14" >Agency</p>
 
             <form 
             onSubmit={handleSubmit(onSubmit)}
@@ -59,7 +59,7 @@ export const Footer = () => {
 
             </form>
 
-            <p className="absolute bottom-3 text-center w-full text-white font-medium" >Todos os direitos reservados</p>
+            <p className="absolute bottom-3 mx-auto left-0 right-0 text-center w-60 text-white font-medium" >Todos os direitos reservados</p>
 
         </footer>
     )
