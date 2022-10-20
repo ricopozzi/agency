@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import { Footer } from '../components/footer'
 import { Header } from '../components/Header'
 import { InfoSection } from '../components/Infos'
@@ -9,6 +10,9 @@ import { WhatWeDo } from '../components/WhatWeDo/index'
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Queza | Especialistas em software</title>
+      </Head>
       <div className='lg:px-20 px-3 min-h-[100vh] flex flex-col items-center' >
         <Header />
         <Main />
