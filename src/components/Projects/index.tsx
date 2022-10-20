@@ -21,7 +21,7 @@ export const Projects = () => {
             />
             <FeedbakProject 
             imgSource={feedbak}
-            text="Software as a service (Saas) para coleta de feedbacks e avaliações para empresas. Possui arquitetura multi-tenant, sistema de permissões, funcionalidade de like, sessão de comentários, etc."
+            text="Software as a service(Saas) para coleta de feedbacks e avaliações para empresas. Possui arquitetura multi-tenant, sistema de permissões, funcionalidade de like, sessão de comentários, etc."
             title="Feedbak"
             />
 

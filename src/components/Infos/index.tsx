@@ -4,7 +4,7 @@ import { Info } from "./Info"
 export const InfoSection = () => {
 
     return (
-        <section className="w-3/4 min-h-[30vh] mt-10 py-10 flex flex-wrap items-center justify-center gap-6" >
+        <section className="w-3/4 min-h-[30vh] mt-10 py-10 flex flex-wrap items-center justify-center gap-y-8 lg:gap-6" >
             <Info 
             title="E-commerce"
             description="Temos experiência na construção de e-commerce com as mais diversas ferramentas, que se encaixarão exatamente no que você precisa."

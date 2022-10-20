@@ -1,6 +1,6 @@
 import Image from "next/future/image"
 import Link from "next/link"
-import logo from "../../public/logo.svg"
+import logo from "../../public/brand.svg"
 
 
 export const Header = () => {
@@ -9,9 +9,7 @@ export const Header = () => {
         <header className="w-full h-20 pb-3 flex items-end justify-between" >
               <div className="flex items-center gap-x-1" >
                 
-              <Image src={logo} width={30} alt="logo image" />
-              <p className="text-3xl font-bold tracking-wider" > 
-               gency</p>
+              <Image src={logo} width={140} alt="logo image" />
               </div>
 
               <div className="hidden lg:flex gap-x-10 font-semibold text-gray-800" >
