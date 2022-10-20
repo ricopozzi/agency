@@ -7,7 +7,7 @@ export const Main = () => {
 
     return (
         <>
-         <main className="w-[90vw] lg:min-h-[70vh] mt-8 rounded-[2rem] bg-mesh bg-bottom flex flex-col p-10 relative" >
+         <main className="w-[90vw] lg:min-h-[70vh] mt-28 rounded-[2rem] bg-mesh bg-bottom flex flex-col p-10 relative" >
             <h1 
             className="font-black leading-10 lg:leading-[3.5rem] text-3xl lg:text-5xl lg:w-1/2 text-white"
             >Desenvolvemos os melhores softwares</h1>

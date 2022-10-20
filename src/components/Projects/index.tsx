@@ -10,7 +10,7 @@ export const Projects = () => {
     
     return (
         <>
-        <p className="text-4xl font-bold mr-auto mb-10" >Nossos projetos</p>
+        <p id="projetos" className="text-4xl font-bold mr-auto mb-10" >Nossos projetos</p>
         <section 
          className="w-full top-0 bg-neutral-50 rounded-3xl mb-10 min-h-[70vh] text-black flex flex-col 
          p-3 lg:p-10 pt-20 gap-y-20 items-center" >

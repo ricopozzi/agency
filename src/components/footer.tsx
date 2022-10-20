@@ -21,10 +21,8 @@ export const Footer = () => {
     const onSubmit = (data: any) => {
         console.log(data)
     }
-    
-
     return(
-        <footer className="w-full min-h-80 bg-black px-3 lg:pt-14 py-40 flex flex-col lg:flex-row relative"  >
+        <footer id="contato" className="w-full min-h-80 bg-black px-3 lg:pt-14 py-40 flex flex-col lg:flex-row relative"  >
             <p className="text-3xl text-white text-center mb-8 absolute left-10 top-4 lg:top-14" >Queza</p>
 
             <form 

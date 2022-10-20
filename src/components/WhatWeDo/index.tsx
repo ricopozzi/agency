@@ -8,7 +8,7 @@ import node from "../../../public/node.svg"
 import mongo from "../../../public/mongo.svg"
 import postgres from "../../../public/postgres.svg"
 import Image from "next/future/image"
-import logo from "../../../public/logo.svg"
+import logo from "../../../public/qza2.svg"
 
 
 export const WhatWeDo = () => {
