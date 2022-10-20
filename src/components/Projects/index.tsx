@@ -2,7 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { ProjectRhema } from "./ProjectRhema"
 import rhemaiphone from "../../../public/rhemaiphone.svg"
-import feedbak from "../../../public/feedbak.svg"
+import feedbak from "../../../public/feedbak.png"
 import { FeedbakProject } from "./Feedbak"
 
 export const Projects = () => {

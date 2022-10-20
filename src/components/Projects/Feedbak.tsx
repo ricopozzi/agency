@@ -1,4 +1,4 @@
-import Image from "next/future/image"
+import Image from "next/image"
 import ts from "../../../public/ts.svg"
 import next from "../../../public/next.svg"
 import supalogo from "../../../public/supalogo.svg"
@@ -17,7 +17,7 @@ export const FeedbakProject = ({title, imgSource, text}: FeedbakProps) => {
         <div
        className="w-11/12 mx-auto flex flex-col item-center lg:flex-row gap-x-10"
        >
-        <Image src={imgSource} width={500} alt=""  className="rounded-2xl" />
+        <Image src={imgSource} width={400} height={200} alt="" className="rounded-2xl object-contain" />
 
         <div
         className="lg:w-1/2 min-h-[40vh] flex flex-col justify-center items-center gap-y-8"
