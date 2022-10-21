@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Script from "next/script"
 import Head from 'next/head'
 import { Footer } from '../components/footer'
 import { Header } from '../components/Header'
@@ -12,6 +13,19 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Queza | Especialistas em software</title>
+
+        <Script
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-M9GFFJ0QS8');
+          `
+        }}  
+        />
       </Head>
       <div id="home" className='lg:px-20 px-3 min-h-[100vh] flex flex-col items-center' >
         <Header />
