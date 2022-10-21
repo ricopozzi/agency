@@ -13,8 +13,8 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Queza | Especialistas em software</title>
-
-        <Script
+      </Head>
+      <Script
         strategy='afterInteractive'
         dangerouslySetInnerHTML={{
           __html: `
@@ -26,7 +26,6 @@ const Home: NextPage = () => {
           `
         }}  
         />
-      </Head>
       <div id="home" className='lg:px-20 px-3 min-h-[100vh] flex flex-col items-center' >
         <Header />
         <Main />
