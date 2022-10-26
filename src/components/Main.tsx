@@ -4,6 +4,11 @@ import IphoneImage from "../../public/iphone.svg"
 
 export const Main = () => {
 
+    const smoothAnchor = (id: string) => {
+        const element = document.getElementById(id)
+
+        return element && element.scrollIntoView({behavior: 'smooth', block:'start'})
+    }
 
     return (
         <>
@@ -13,7 +18,7 @@ export const Main = () => {
             >Desenvolvemos os melhores softwares</h1>
             <p className="lg:w-1/2 mt-10 text-gray-100" >Especialistas em produtos digitais do Brasil, nós iremos desenvolver apps melhores e mais rápido.</p>
 
-            <button className="w-48 h-14 mt-10 bg-white/80 hover:bg-white duration-150 rounded-xl font-bold tracking-wide" >Contate-nos</button>
+            <a className="w-48 h-14 mt-10 bg-white/80 hover:bg-white duration-150 rounded-xl font-bold tracking-wide flex items-center justify-center cursor-pointer" onClick={() => smoothAnchor('contato')} >Contate-nos</a>
 
             <Image 
             className="absolute right-28 -bottom-24 hidden lg:block lg:w-60"
