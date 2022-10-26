@@ -18,7 +18,7 @@ export const Main = () => {
             >Desenvolvemos os melhores softwares</h1>
             <p className="lg:w-1/2 mt-10 text-gray-100" >Especialistas em produtos digitais do Brasil, nós iremos desenvolver apps melhores e mais rápido.</p>
 
-            <a className="w-48 h-14 mt-10 bg-white/80 hover:bg-white duration-150 rounded-xl font-bold tracking-wide flex items-center justify-center cursor-pointer" onClick={() => smoothAnchor('contato')} >Contate-nos</a>
+            <div className="w-48 h-14 mt-10 bg-white/80 hover:bg-white duration-150 rounded-xl font-bold tracking-wide flex items-center justify-center cursor-pointer" onClick={() => smoothAnchor('contato')} >Contate-nos</div>
 
             <Image 
             className="absolute right-28 -bottom-24 hidden lg:block lg:w-60"
